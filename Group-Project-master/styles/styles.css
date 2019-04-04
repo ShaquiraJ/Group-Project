@@ -1,0 +1,12 @@
+div {
+    min-height: 110vh;
+    width: 100vw;
+
+}
+
+img {
+  display: block;
+  padding: 70px;
+  margin: 0 auto;
+  border-radius: 130px;
+}
