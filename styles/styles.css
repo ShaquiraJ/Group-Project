@@ -9,3 +9,11 @@ body {
 p {
   font-size: 800px
 }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 25%
+}
