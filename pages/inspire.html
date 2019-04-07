@@ -43,13 +43,24 @@
     <img src="../images/logo.jpg" class="logo">
   </div>
   <div class="inspire">
-    <h1>Eucalyptus</h1>
-    <h2>Eucalyptus globulus</h2>
-    <img src="../images/eucalyptus.jpg" class="inspire_image">
-    <p>
-      Eucalyptus is a genus of over seven hundred species of flowering trees, shrubs or mallees in the myrtle family, Myrtaceae commonly known as eucalypts. Plants in the genus Eucalyptus have bark that is smooth, fibrous or stringy, leaves with oil glands, and sepals and petals that are fused to form a "cap" or operculum over the stamens. The fruit is a woody capsule commonly referred to as a "gumnut". Australia is covered by 92,000,000 hectares (227,336,951 acres) of eucalypt forest, comprising three quarters of the area covered by native fores
+    <h1 id="myHeader">Eucalyptus</h1>
+    <h2 id="subHeader">Eucalyptus globulus</h2>
+    <img src="../images/eucalyptus.jpg" id="infoImage" class="inspire_image">
+    <p id="infoText">
+      Eucalyptus is a genus of over seven hundred species of flowering trees, shrubs or mallees in the myrtle family, Myrtaceae commonly known as eucalypts.
     </p>
   </div>
+
+<button onclick="displayResult()">Inspire Me</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Aloe Vera";
+  document.getElementById("subHeader").innerHTML = "Aloe perfoliata L";
+  document.getElementById("infoImage").src = "../images/aloe.jpg";
+  document.getElementById("infoText").innerHTML = "Aloe vera is a succulent plant species of the genus Aloe. An evergreen perennial, it originates from the Arabian Peninsula but grows wild in tropical climate.";
+}
+</script>
 
 </body>
 </html>
