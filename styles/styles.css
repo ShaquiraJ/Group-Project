@@ -7,13 +7,20 @@ body {
 }
 
 p {
-  font-size: 70px
+  font-size: 20px
 }
 
 h1 {
-  font-size: 500px
-  color: blue;
+  font-size: 20px
+  color: grey;
   text-align: center;
+}
+
+h2 {
+  font-size: 15px
+  color: grey;
+  text-align: center;
+  font-style: italic;
 }
 
 .logo {
